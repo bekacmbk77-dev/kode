@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+header {
+    height: 128px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+
+}
+
+.text {
+    margin: 0;
+    font-size: 96px;
+    color: aliceblue;
+    padding: 80px;
+}
+
+.button1 {
+    background-color: #339933;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 18;
+    font-weight: 600;
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+
+.button2 {
+    color: #DDDDDD;
+    width: 140px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: transparent;
+
+
+}
+
+.categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner {
+    width: 1450px;
+    height: 486px;
+    background-color: #0B710B;
+    border-radius: 15px;
+}
+
+div.box8 {
+    color: aliceblue;
+    font-size: 75px;
+    margin-top: 30px;
+}
+
+form button {
+    width: 546px;
+    height: 58px;
+    padding: 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form {
+    width: 80%;
+    margin-top: -350px;
+    margin-left: 870px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+form input {
+    width: 516px;
+    height: 30px;
+    padding: 14px;
+    margin-bottom: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+
+}
+
+input::placeholder {
+    color: white;
+}
+
+div.box8 {
+    margin-left: 50px;
+    text-align: center;
+}
+
+.box9 {
+    margin-top: 40px;
+
+}
+
+.box11 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box12 {
+    background: transparent;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.sikitka {
+    position: absolute;
+    background: green;
+    color: white;
+    padding: 3px 7px;
+    font-size: 12px;
+    border-radius: 5px;
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 230px;
+}
+
+.nom {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 30px
+}
+
+.narx {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.narx2 {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.card {}
